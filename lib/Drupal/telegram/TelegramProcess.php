@@ -66,7 +66,7 @@ class TelegramProcess {
    */
   public function getCommandLine() {
     return $this->params['command'] .
-      ' -N' . // Print out message numbers
+      //' -N' . // Print out message numbers
       ' -c ' . $this->params['configfile'] .
       ' -k ' . $this->params['keyfile'];
   }
